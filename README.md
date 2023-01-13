@@ -31,7 +31,11 @@ $ cp Pictures/* ~/Pictures/
 $ cp fonts/* ~/.local/share/fonts/
 ```
 
-### ! Do not forget to install fish kitty neofetch and picon
+### ! Do not forget to install packages. You can run this to install required packages:
+`sudo pacman -Sy kitty neofetch fish feh git exa`
+
+And if you have yay installed you can install picom by:
+`yay -S picom-jonaburg-git`
 
 I use picom by jonaburg [Picom](https://github.com/jonaburg/picom). And Tide theme for Fish
 
